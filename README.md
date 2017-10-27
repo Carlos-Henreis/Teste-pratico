@@ -1,16 +1,13 @@
 # Teste-pratico
 Criação de uma aplicação para uma agencia de viagem
 ## Disposição das pastas neste repositório
-* **Projeto**: Contém a modelagem da aplicação
-  * Diagrama de Classes
-  * Modelo do banco de dados
-    * Modelo entidade Relacionamento
-    * Modelo Lógico
 * **Font Code** Todo o código fonte da aplicação
+* **Prints:** Alguns prints da tela na hora dos testes
 
 ## Como rodar a aplicação
 **Pré requisitos**: 
-*Ter instalado PHP >= 5.6
+
+* Ter instalado PHP >= 5.6
 * Mysql instalado.
 
 1) Faça o Dowload do código fonte
@@ -31,3 +28,11 @@ DB_PASSWORD= root
 7) Rode para inicializar a aplicação: `php artisan serve` ou use `php -S localhost:9000 -t public/` (se quiser pode mudar a porta)
 
 **Pronto a aplicação pode ser acessada pelo seu navegador :)**
+
+## Justificativas
+
+* Pela simplesidade da aplicação não houve a necessidade de modelar (Desenvolver diagramas de classe, modelo entidade relacionamento, etc.) o sistema antes de implementá-lo.
+
+* Usei o Laravel, por estar mais acostumando, e eu acho que ele é mais simples "rodar" - É só baixar fazer algumas mudanças e pronto
+
+* Mesmo usando o Git/ GitHub não fiz nenhuma gerência de configuração, até porque a aplicação é pequena e só que implementei
