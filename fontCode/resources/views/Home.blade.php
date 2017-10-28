@@ -21,7 +21,7 @@
                     
                     <div class="panel-body">
                         <div>
-                            <h1>Novo Produto</h1>
+                            <h1>Create your next Travel</h1>
                             @if ($errors->any())
                                 <ul class="alert alert-warning">
                                     @foreach($errors->all() as $error)
